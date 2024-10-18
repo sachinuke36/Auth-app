@@ -4,6 +4,8 @@
 import { auth } from "./auth";
 import { NextResponse } from 'next/server';
 
+export const runtime = 'nodejs'
+
 
 const middleware = async(req)=>{
    const user =  await auth()
@@ -18,6 +20,5 @@ return NextResponse.next();
 export default middleware;
 
 export const config = {
-    runtime: 'nodejs',
     matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
 }

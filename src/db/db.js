@@ -1,3 +1,5 @@
+export const runtime = 'nodejs'
+
 import mongoose from "mongoose"
 
 export const connectDB = async()=>{
@@ -15,6 +17,3 @@ export const connectDB = async()=>{
     }
 }
 
-export const config = {
-    runtime: 'nodejs', 
-  };

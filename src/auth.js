@@ -5,9 +5,7 @@ import { connectDB } from "./db/db";
 import { User } from "./models/userModel";
 import GitHub from "next-auth/providers/github"
 
-export const config = {
-  runtime: 'nodejs',
-};
+export const runtime = 'nodejs'
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [Google({
