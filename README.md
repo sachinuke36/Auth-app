@@ -1,4 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed (version 18 or higher).
+- **MongoDB**: A running instance of MongoDB (local or cloud-based).
+- **Environment Variables**: Make sure to create a `.env` and `.env.local` file with the required variables.
+
+## Environment Variables
+
+### `.env`
+
+```bash
+MONGO_URI=your_mongodb_connection_string
+AUTH_GITHUB_ID=your_github_client_id
+AUTH_GITHUB_SECRET=your_github_client_secret
+```
+
+### `.env.local`
+```bash
+AUTH_SECRET=your_auth_secret
+AUTH_GOOGLE_ID=your_google_client_id
+AUTH_GOOGLE_SECRET=your_google_client_secret
+```
 
 ## Getting Started
 
