@@ -1,9 +1,10 @@
+export const runtime = 'nodejs'
+
 import { auth, signOut } from "@/auth";
 import React from "react";
 import Logout from "./components/Logout";
 import Image from "next/image";
 
-export const runtime = 'nodejs'
 
 const Home = async() => {
   const session = await auth();

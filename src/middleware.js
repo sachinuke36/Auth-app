@@ -1,10 +1,9 @@
-// export { auth as middleware } from "@/auth"
 
+export const runtime = 'nodejs'
 
 import { auth } from "./auth";
 import { NextResponse } from 'next/server';
 
-export const runtime = 'nodejs'
 
 
 const middleware = async(req)=>{
