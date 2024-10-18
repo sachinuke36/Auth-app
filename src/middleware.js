@@ -18,5 +18,6 @@ return NextResponse.next();
 export default middleware;
 
 export const config = {
+    runtime: 'nodejs',
     matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
 }

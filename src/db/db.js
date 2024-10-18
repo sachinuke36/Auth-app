@@ -14,3 +14,7 @@ export const connectDB = async()=>{
         throw new Error('Error connecting Database');
     }
 }
+
+export const config = {
+    runtime: 'nodejs', 
+  };
