@@ -1,3 +1,8 @@
+export const config = {
+    runtime: 'nodejs',
+  };
+  
+
 import mongoose from "mongoose"
 
 export const connectDB = async()=>{
