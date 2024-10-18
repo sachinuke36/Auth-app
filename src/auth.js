@@ -2,7 +2,7 @@ export const runtime = 'nodejs'
 
 import NextAuth, { AuthError } from "next-auth"
 import Google from "next-auth/providers/google"
-import { connectDB } from "./db/db";
+import { connectDB } from "./app/api/db/db";
 import { User } from "./models/userModel";
 import GitHub from "next-auth/providers/github"
 
