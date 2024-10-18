@@ -1,3 +1,8 @@
+export const config = {
+  runtime: 'nodejs',
+};
+
+
 import NextAuth, { AuthError } from "next-auth"
 import Google from "next-auth/providers/google"
 import { connectDB } from "./db/db";
