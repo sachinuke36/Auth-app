@@ -1,5 +1,5 @@
-export const runtime = 'nodejs'
 "use client"
+export const runtime = 'nodejs'
 import { signIn, signOut } from "next-auth/react";
 import { Button } from "@/components/ui/button"
 
